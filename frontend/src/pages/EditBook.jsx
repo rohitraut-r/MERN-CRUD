@@ -54,7 +54,7 @@ const EditBook = () => {
   return (
     <div className='p-4'>
       <div className="flex flex-col items-center ">
-        <span>Add New Book</span>
+        <span>Edit Book</span>
         <div className="p-4 w-[400px] border-2 border-slate-800 rounded-md">
           <div> Title</div>
           <input type="text" value={title} onChange={(e)=>setTitle(e.target.value)} className='border-2 border-slate-500 rounded-sm w-full'/>
